@@ -1,0 +1,67 @@
+.dataset-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: 100px;
+    padding: 0px;
+    margin-bottom: 10px;
+    border: 2px solid #b2b2b2;
+    border-radius: 20px;
+  }
+  
+  
+  .info-block {
+    margin-left: 40px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+
+  .dataset-link {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .dataset-date {
+    color: #727272;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  .delete-button {
+    background-color: #1977FF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 40px;
+    transition: background-color 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .delete-button img {
+    margin-right: 10px;
+  }
+
+  .delete-button p {
+    margin: 0px;
+    margin-top: 1px;
+  }
+  
+  .delete-button:hover {
+    background-color: #0056b3;
+  }

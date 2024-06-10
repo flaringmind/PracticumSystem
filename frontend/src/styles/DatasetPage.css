@@ -1,0 +1,141 @@
+.dataset-header{
+    width: 95%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dataset-header h1{
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.dataset-header .delete-button{
+    margin: 0px;
+    padding: 12px 40px;
+    background-color: #727272;
+
+}
+
+.dataset-header .delete-button:hover{
+    background-color:#464646;
+}
+
+.download-button{
+    background-color: #1977FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.download-button:hover{
+    background-color: #0056b3;
+}
+
+.table-container{
+    width: 95%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Styles for table */
+table {
+    border: 2px solid #333;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px;
+    border-spacing: 50px;
+    font-size: 14px;
+}
+
+th {
+    border: 1px solid #333;
+    padding: 7px 10px;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 4px 15px;
+    font-size: 12px;
+}
+
+.truncate {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+
+.table-footer{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-footer .left-block{
+    width: 75px;
+    height: 25px;
+}
+
+.table-footer .back-button{
+    width: 75px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+}
+
+.pagination li {
+    margin: 0 2px;
+}
+
+.pagination li a {
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination li a:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.pagination li.active a {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination li.disabled a {
+    color: #6c757d;
+    cursor: not-allowed;
+}

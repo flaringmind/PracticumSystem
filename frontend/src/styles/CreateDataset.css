@@ -1,0 +1,165 @@
+.create-container{
+    width: 80%;
+    max-width: 800px;
+    border: #b2b2b2 solid 2px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .create-container h1{
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    width: 80%;
+    max-width: 500px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  .create-info{
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+    width: 80%;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .checkbox-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 20px;
+  }
+
+  .checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .checkbox input[type="checkbox"]{
+    margin: 0px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .create-loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .create-loader p{
+    font-weight: initial;
+    color: #727272;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .find-button{
+    background-color: #1977FF;
+    color: white;
+    padding: 10px 10px;
+    margin: 0px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .find-button:hover{
+    background-color: #0056b3;
+  }
+
+  .back-button{
+    background-color: #727272;
+    color: white;
+    padding: 10px 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .back-button:hover{
+    background-color: #464646;
+  }
+
+  .profstandart-list{
+    width: 90%;
+  }
+
+  .profstandart-list h2{
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .profstandart-list p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0056b3;
+  }
+
+  .profstandart-list ol{
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .vacancy-form{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
